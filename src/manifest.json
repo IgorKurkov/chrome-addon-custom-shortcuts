@@ -1,5 +1,5 @@
 {
-  "name": "My chrome custom Shortcuts (Google cal, Clickup)",
+  "name": "Custom Shortcuts (Google cal, Clickup)",
   "version": "1.0",
   "icons": {
     "16": "assets/icon.png",
@@ -52,5 +52,5 @@
     "default_icon": "assets/icon.png",
     "default_popup": "popup.html"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }
