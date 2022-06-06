@@ -24,24 +24,26 @@
         "default": "Alt+Left",
         "mac": "Alt+Left"
       },
-      "description": "Navigate Left"
+      "description": "Google calendar - Navigate Left"
     },
     "navigate-right": {
       "suggested_key": {
         "default": "Alt+Right",
         "mac": "Alt+Right"
       },
-      "description": "Navigate Right"
+      "description": "Google calendar - Navigate Right"
     },
     "done-task-btn": {
       "suggested_key": {
-        "default": "Alt+Down"
+        "default": "Alt+Up",
+        "mac": "Alt+Up"
       },
       "description": "Done clickup task"
     },
     "fullscreen-btn": {
       "suggested_key": {
-        "default": "Alt+Up"
+        "default": "Alt+Down",
+        "mac": "Alt+Down"
       },
       "description": "Fullscreen clickup task"
     }
