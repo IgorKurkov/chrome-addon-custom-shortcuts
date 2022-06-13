@@ -1,5 +1,5 @@
 chrome.commands.onCommand.addListener(function (command) {
-  debugger;
+  // debugger;
   if (["done-task-btn", "fullscreen-btn", "seemore-btn"].includes(command)) {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
       chrome.tabs.sendMessage(tabs[0].id, {

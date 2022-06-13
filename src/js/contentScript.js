@@ -3,7 +3,9 @@ chrome.runtime.onMessage.addListener(function (message) {
 
   if (clickupContainer) {
     const doneButton = document.querySelector(".done-task-btn");
-    const seemoreBtn = document.querySelector(".task-description__show-more-btn");
+    const seemoreBtn = document.querySelector(
+      ".task-description__show-more-btn"
+    );
     const fullscreenBtn = document.querySelector(".cu-editor-fullscreen");
     const { done, fullscreen, seemore } = message;
     if (done) {

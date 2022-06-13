@@ -1,17 +1,16 @@
 {
-  "name": "Custom Shortcuts (Google cal, Clickup)",
+  "name": "Clickup Custom Shortcuts",
   "version": "1.0",
   "icons": {
     "16": "assets/icon.png",
     "48": "assets/icon.png",
     "128": "assets/icon.png"
   },
-  "description": "Add arrow navigation to Google Calendar, set task to done in clickup",
-  "host_permissions": ["*://*/*"],
-  "permissions": ["storage"],
+  "description": "Add ability to set keyboard hotkeys for task actions",
+  "host_permissions": ["*://*.clickup.com/t/*"],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["*://*.clickup.com/t/*"],
       "js": ["js/contentScript.js"]
     }
   ],

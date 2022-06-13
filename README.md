@@ -1,5 +1,5 @@
-# Clickup/Google Nagivation Shortcuts
-This chrome extension allows for the navigation of Google Calendar with keyboard shortcuts. The tutorial corresponding with this repo can be found [here](https://www.blog.karenying.com/posts/hack-keyboard-shortcuts-into-sites-with-a-custom-chrome-extension).
+# Clickup custom Nagivation Shortcuts
+This chrome extension allows for the navigation Clickup tasks with keyboard shortcuts. The tutorial corresponding with this repo can be found [here](https://www.blog.karenying.com/posts/hack-keyboard-shortcuts-into-sites-with-a-custom-chrome-extension).
 
 
 
